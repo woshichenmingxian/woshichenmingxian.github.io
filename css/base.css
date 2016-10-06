@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+ul, ol {
+    list-style: none
+}
+
+img {
+    border: 0 none;
+    vertical-align: top
+}
+
+.cf:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cf {
+    *zoom: 1
+}
+
+a {
+    text-decoration: none;
+    color: #686868
+}
+
+body {
+    font-family: "Segoe UI Light", Calibri;
+    font-size: 14px
+}
+
+/*头部*/
+.head {
+    width: 1200px;
+    height: 128px;
+    margin: 0 auto
+}
+
+/*头部上部分*/
+.head_top {
+    width: 1200px;
+    height: 88px;
+    margin: 0 auto
+}
+
+/*logo---左边*/
+.logo {
+    float: left;
+}
+
+/* logo*/
+.logo_img {
+    padding-top: 35px;
+    float: left
+}
+
+/*logo 后面的文字*/
+.logo_text {
+    float: left;
+    border-left: 1px solid #dcdcdc;
+    margin-left: 20px;
+    margin-top: 25px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #999999
+}
+
+/*搜索---右边*/
+.search_right {
+    margin-top: 25px;
+    float: right;
+}
+
+/*搜索栏*/
+.search {
+    width: 281px;
+    height: 41px;
+    border: 1px solid #dcdcdc;outline: none;
+    border-right: 0 none;
+
+    padding-left: 14px;
+    padding-right: 14px;
+    vertical-align: middle;
+}
+
+/*搜索按钮*/
+.bnt {
+    width: 44px;
+    height: 43px;
+    border: 0 none;
+    vertical-align: middle;
+    background: #ff5842 url(../images/search.png) no-repeat center;
+    cursor: pointer;
+}
+
+/*导航条*/
+.nav {
+    width: 1200px;
+    height: 40px
+}
+/*导航条布局ul*/
+.nav_list {
+    float: left
+}
+/*导航条布局li左浮，设置边距*/
+.nav_list li {
+    float: left;
+    margin-right: 48px;
+    font-size: 20px
+}
+
+/*点击后导航显示红色*/
+ul .display a {
+    color: #ff5842
+}
+
+.nav_list a:hover{
+    color: #ff5842;
+}
+/*导航条右边join us*/
+.nav_logo {
+    float: right;
+}
+/*鼠标访问前样式设置*/
+.nav_logo a:link {
+    float: left;
+    background: #ff5842;
+}
+/*鼠标访问后样式设置*/
+.nav_logo a:hover {
+    background: #a1a1a1;
+}
+/*join us为超链接设置为块级元素，设置其他默认*/
+.nav_j {
+    float: left;
+    display: block;
+    width: 63px;
+    height: 27px;
+    background: red;
+    text-align: center;
+    line-height: 27px;
+    color: white
+}
+/*login为超链接设置为块级元素，设置其他默认*/
+.nav_l {
+    float: left;
+    display: block;
+    width: 52px;
+    height: 27px;
+    background: #a1a1a1;
+    margin-left: 1px;
+    text-align: center;
+    line-height: 27px;
+    color: white
+}
+
+/*脚板（底部）*/
+.footer {
+}
+
+.footer_top {
+    width: 100%;
+    height: 210px;
+    background-color: #222f35;
+}
+
+/*底部文字区域*/
+.footer_text {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.footer_log {
+    float: left
+}
+
+/*第一个文字区域*/
+.footer_title img {
+    vertical-align: middle;
+    margin-right: 10px
+}
+
+.footer_log .footer_title {
+    font-size: 23px;
+    vertical-align: middle;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.footer_log p {
+    color: #738e9a;
+    font-size: 14px;
+    line-height: 21px
+}
+
+/*右边三个ul，为最右边的ul设置内边距*/
+.footer_titler {
+    float: right;
+    padding-right: 57px;
+
+}
+
+.footer_titler ul {
+    float: left;
+    margin-left: 136px;
+    margin-top: 20px;
+}
+
+/*设置标题的样式*/
+.footer-ul .footer_titletop {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 22px
+}
+
+/*设置文字的样式*/
+.footer-ul li a {
+    color: #738e9a;
+    font-size: 14px;
+    line-height: 21px
+}
+.footer-ul li a:hover{color: white}
+
+/*下面的脚本样式设置*/
+.footer_bottom {
+    width: 100%;
+    height: 53px;
+    background-color: #172125;
+}
+
+/*脚本居中*/
+.footer_container {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.footer_copy {
+    float: left;
+    line-height: 53px;
+    font-size: 14px;
+    color: #738e9a;
+}
+/*分享为超链接*/
+.footer_share {
+    float: right
+}
+
+.footer_share a {
+    margin-left: 2px;
+    float: left
+}
+.footer_share a:hover{
+    background-color:#222f42}
+
+/*四个分享超链接设置为块级元素*/
+.share_fb {
+    display: block;
+    width: 37px;
+    height: 37px;
+    background: #222f35 url(../images/fa.png) no-repeat center;
+    margin-top: 6px;
+
+}
+
+.share_br {
+    display: block;
+    width: 37px;
+    height: 37px;
+    background: #222f35 url(../images/bri.png) no-repeat center;
+    margin-top: 6px;
+}
+
+.share_g {
+    display: block;
+    width: 37px;
+    height: 37px;
+    background: #222f35 url(../images/br.png) no-repeat center;
+    margin-top: 6px;
+}
+
+.share_ytb {
+    display: block;
+    width: 37px;
+    height: 37px;
+    background: #222f35 url(../images/yu.png) no-repeat center;
+    margin-top: 6px;
+    margin-right: 82px;
+}
+
+
