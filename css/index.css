@@ -258,16 +258,25 @@
     position: relative;
 }
 
+
+
+
+
 .hot_topics img {
     vertical-align: middle;
     margin-right: 10px
 }
 
+
+.hot_hidden{width: 880px;height: 424px;overflow: hidden;position: relative}
+
 .hot_img {
-    width: 880px;
+    width: 8800px;
     height: 400px;
     border-bottom: 4px solid #ff5842;
     padding-top: 20px;
+    position: absolute;
+    left: 0;
 
 }
 
@@ -275,7 +284,13 @@
     width: 880px;
     height: 400px
 }
-
+.hot_img a{
+    float: left;
+    margin-right: 10px;
+    display: block;
+    width: 880px;
+    height: 400px
+}
 /*图片中文字区域*/
 .hot_text {
     width: 575px;
@@ -285,8 +300,14 @@
     bottom: 12px;
     left: 16px;
     padding: 10px 15px;
+    overflow: hidden;
 }
-
+.hot_wenzi{
+    width: 575px;
+    height: 1050px;
+    position: absolute;
+    top:0;
+}
 .hot_text p {
     font-size: 19px;
     color: #ffffff;
@@ -296,7 +317,9 @@
 .hot_zi {
     font-size: 16px;
     color: #e0e0e0;
-    padding-top: 10px
+    padding-top: 10px;
+    padding-bottom: 20px;
+
 }
 
 /*图片左右滑动选项*/
@@ -607,16 +630,51 @@
     margin-right: 10px
 }
 
+
+.Environment_bigdisplay{   width: 880px;
+    height: 400px;overflow: hidden;position: relative}
+
+.Environment_bigimg{height: 400px;width: 10000px;position: absolute;left: 0}
+
+
+
+.Environment_bigimg a{display: block;   width: 880px;
+    height: 400px;float: left;margin-right: 10px}
+
+
+
+
+
+
+
+
 .Environment_big {
     width: 880px;
-    height: 400px
+height: 400px
 }
 
+
+
+
+
+
+.Environment_bottomdisplay{width: 880px;height: 184px;position: relative;overflow: hidden}
+.Environment_bottomul{width: 10000px;height: 184px ;position: absolute;
+    top:0;
+}
 .Environment_bottom {
+
     width: 876px;
     border: 2px solid #f8f8f8;
     border-top: 0 none;
+
 }
+
+
+
+
+
+
 
 .Environment_bottom2 {
     width: 860px;
@@ -624,6 +682,7 @@
     padding: 10px 0 15px 0;
     font-size: 12px;
     border-bottom: 2px solid #f8f8f8
+
 }
 
 .Environment_bottomp {
